@@ -10,9 +10,9 @@ const Contact = () => {
         <h2 className="text-3xl font-bold text-center mb-16">{t('getInTouch')}</h2>
         <div className="max-w-2xl mx-auto">
           <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
-            <a href="mailto:your.email@example.com" className="flex items-center space-x-2 text-gray-600 hover:text-blue-600">
+            <a href="mailto:gustavoviniciusdev20@gmail.com" className="flex items-center space-x-2 text-gray-600 hover:text-blue-600">
               <Mail className="w-6 h-6" />
-              <span>your.email@example.com</span>
+              <span>gustavoviniciusdev20@gmail.com</span>
             </a>
             <a href="https://github.com/Gustavo-Vinicius" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-gray-600 hover:text-blue-600">
               <Github className="w-6 h-6" />
