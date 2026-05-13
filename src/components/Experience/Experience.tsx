@@ -5,7 +5,7 @@ const Experience = () => {
   const { t } = useLanguage();
 
   return (
-    <section className="py-20 bg-white">
+    <section id="experience" className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold text-center mb-16">{t('professionalExperience')}</h2>
         
@@ -27,7 +27,7 @@ const Experience = () => {
                     <span>{t('localizaLocation')}</span>
                   </div>
                 </div>
-                <p className="mt-4 text-gray-600">{t('localizaDescription')}</p>
+                <p className="mt-4 text-gray-600 whitespace-pre-line">{t('localizaDescription')}</p>
                 <div className="mt-4 flex flex-wrap gap-2">
                   <span className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">C#</span>
                   <span className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">Java</span>
@@ -59,7 +59,7 @@ const Experience = () => {
                     <span>{t('radinfoLocation')}</span>
                   </div>
                 </div>
-                <p className="mt-4 text-gray-600">{t('radinfoDescription')}</p>
+                <p className="mt-4 text-gray-600 whitespace-pre-line">{t('radinfoDescription')}</p>
                 <ul className="mt-4 space-y-2 text-gray-600 list-disc list-inside">
                   <li>{t('radinfoAchievement1')}</li>
                   <li>{t('radinfoAchievement2')}</li>
@@ -94,7 +94,7 @@ const Experience = () => {
                     <span>{t('remote')}</span>
                   </div>
                 </div>
-                <p className="mt-4 text-gray-600">{t('lacaDescription')}</p>
+                <p className="mt-4 text-gray-600 whitespace-pre-line">{t('lacaDescription')}</p>
                 <div className="mt-4 flex flex-wrap gap-2">
                   <span className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">ASP.NET Core</span>
                   <span className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">Swagger</span>

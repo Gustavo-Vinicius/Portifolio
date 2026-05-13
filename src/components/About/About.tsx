@@ -5,7 +5,7 @@ const About = () => {
   const { t } = useLanguage();
 
   return (
-    <section className="py-20 bg-white">
+    <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold text-center mb-8">{t('aboutMe')}</h2>
         <div className="max-w-3xl mx-auto space-y-6">
