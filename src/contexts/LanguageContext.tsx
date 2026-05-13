@@ -12,13 +12,15 @@ const translations: Record<Language, Record<string, string>> = {
   'en': {
     // About
     'aboutMe': 'About Me',
-    'aboutDescription1': 'I am currently a Software Developer II at Localiza&Co, where I apply my expertise in C# and .NET to create robust APIs, efficiently integrating them with databases such as SQL Server and Sybase. In my constant pursuit of excellence in back-end development, my work stands out for the high performance and reliability of the solutions I deliver.',
-    'aboutDescription2': 'As a Software Engineering student at UNOPAR, I am always updating my skills, which include advanced architectural patterns and microservice optimization. My commitment to quality and my passion for technology motivate me to develop projects that not only meet, but exceed expectations.',
+    'aboutDescription1': 'I am currently a Software Developer II at Localiza&Co, where I apply my expertise in C#, .NET, Java, and Spring Boot to create robust and scalable APIs, efficiently integrating them with databases such as SQL Server and Sybase. In my constant pursuit of excellence in back-end development, my work stands out for the high performance and reliability of the solutions I deliver.',
+    'aboutDescription2': 'I also work with DevOps practices, including CI/CD pipelines, containerization with Docker, and infrastructure automation, ensuring fast and reliable delivery cycles.',
+    'aboutDescription3': 'As a Software Engineering student at UNOPAR (Universidade Norte do Paraná), I am always updating my skills, which include advanced architectural patterns, microservice optimization, and cloud-native development. My commitment to quality and my passion for technology motivate me to develop projects that not only meet, but exceed expectations.',
+    'aboutDescription4': 'Open to new challenges and opportunities in back-end and DevOps engineering.',
     
     // Hero
     'name': 'Gustavo Vinicius',
     'role': 'Backend Developer',
-    'description': 'Backend Developer with expertise in C# and Node.js, passionate about building scalable and high-performance solutions, focusing on clean architecture and best development practices.',
+    'description': 'Backend Developer with expertise in C#, .NET, Java, and Spring Boot, passionate about building scalable and high-performance solutions, focusing on clean architecture and best development practices.',
     'contactMe': 'Contact Me',
     'viewProjects': 'View Projects',
     'downloadCV': 'Download CV',
@@ -26,7 +28,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Skills
     'technicalExpertise': 'Technical Expertise',
     'backendDevelopment': 'Backend Development',
-    'backendTechnologies': 'C#, .NET Core, ASP.NET, Web API, Entity Framework, Node.js, TypeScript, JavaScript',
+    'backendTechnologies': 'C#, .NET Core, ASP.NET, Java, Spring Boot, Web API, Entity Framework, TypeScript, JavaScript',
     'database': 'Database',
     'databaseTechnologies': 'SQL Server, PostgreSQL, MongoDB, Redis',
     'architecture': 'Architecture',
@@ -43,7 +45,7 @@ const translations: Record<Language, Record<string, string>> = {
     'localizaRole': 'Software Developer II',
     'localizaDate': 'Sep 2024 - Present',
     'localizaLocation': 'Belo Horizonte, Minas Gerais, Brazil - Remote',
-    'localizaDescription': 'Development and maintenance of backend systems in C#, focusing on creating and implementing robust APIs using the .NET ecosystem. Integration with SQL Server and Sybase databases, ensuring high performance and reliability. Experience in:\n\n• Language: C#\n• Data Persistence: EntityFramework and Dapper\n• Patterns and Architectures: CQRS (MediatR), Repository Pattern, Unit Of Work, Clean Architecture, Clean Code, Object-Oriented Programming (OOP), and Microservices',
+    'localizaDescription': 'Development and maintenance of backend systems in C#, Java, and Spring Boot, focusing on creating and implementing robust APIs using the .NET and Java ecosystems. Integration with SQL Server and Sybase databases, ensuring high performance and reliability. Experience in:\n\n• Languages: C#, Java\n• Frameworks: .NET, Spring Boot\n• Data Persistence: EntityFramework and Dapper\n• Patterns and Architectures: CQRS (MediatR), Repository Pattern, Unit Of Work, Clean Architecture, Clean Code, Object-Oriented Programming (OOP), and Microservices',
     
     // Radinfo
     'radinfoRole': '.NET Backend Developer',
@@ -78,13 +80,15 @@ const translations: Record<Language, Record<string, string>> = {
   'pt-BR': {
     // About
     'aboutMe': 'Sobre Mim',
-    'aboutDescription1': 'Atualmente sou Desenvolvedor de Software II na Localiza&Co, onde aplico minha expertise em C# e .NET para criar APIs robustas, integrando-as eficientemente com bancos de dados como SQL Server e Sybase. Em minha constante busca pela excelência no desenvolvimento back-end, meu trabalho se destaca pela alta performance e confiabilidade das soluções que entrego.',
-    'aboutDescription2': 'Como estudante de Engenharia de Software na UNOPAR, estou sempre atualizando minhas habilidades, que incluem padrões arquiteturais avançados e otimização de microsserviços. Meu compromisso com a qualidade e minha paixão por tecnologia me motivam a desenvolver projetos que não apenas atendem, mas superam as expectativas.',
+    'aboutDescription1': 'Atualmente sou Desenvolvedor de Software II na Localiza&Co, onde aplico minha expertise em C#, .NET, Java e Spring Boot para criar APIs robustas e escaláveis, integrando-as eficientemente com bancos de dados como SQL Server e Sybase. Em minha constante busca pela excelência no desenvolvimento back-end, meu trabalho se destaca pela alta performance e confiabilidade das soluções que entrego.',
+    'aboutDescription2': 'Também atuo com práticas DevOps, incluindo pipelines CI/CD, conteinerização com Docker e automação de infraestrutura, garantindo ciclos de entrega rápidos e confiáveis.',
+    'aboutDescription3': 'Como estudante de Engenharia de Software na UNOPAR (Universidade Norte do Paraná), estou sempre atualizando minhas habilidades, que incluem padrões arquiteturais avançados, otimização de microsserviços e desenvolvimento cloud-native. Meu compromisso com a qualidade e minha paixão por tecnologia me motivam a desenvolver projetos que não apenas atendem, mas superam as expectativas.',
+    'aboutDescription4': 'Aberto a novos desafios e oportunidades em engenharia back-end e DevOps.',
     
     // Hero
     'name': 'Gustavo Vinicius',
     'role': 'Desenvolvedor Backend',
-    'description': 'Desenvolvedor Backend com experiência em C# e Node.js, apaixonado por construir soluções escaláveis ​​e de alto desempenho, com foco em arquitetura limpa e melhores práticas de desenvolvimento.',
+    'description': 'Desenvolvedor Backend com experiência em C#, .NET, Java e Spring Boot, apaixonado por construir soluções escaláveis e de alto desempenho, com foco em arquitetura limpa e melhores práticas de desenvolvimento.',
     'contactMe': 'Contato',
     'viewProjects': 'Projetos',
     'downloadCV': 'Baixar CV',
@@ -92,7 +96,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Skills
     'technicalExpertise': 'Experiência Técnica',
     'backendDevelopment': 'Desenvolvimento Backend',
-    'backendTechnologies': 'C#, .NET Core, ASP.NET, Web API, Entity Framework, Node.js, TypeScript, JavaScript',
+    'backendTechnologies': 'C#, .NET Core, ASP.NET, Java, Spring Boot, Web API, Entity Framework, TypeScript, JavaScript',
     'database': 'Banco de Dados',
     'databaseTechnologies': 'SQL Server, PostgreSQL, MongoDB, Redis',
     'architecture': 'Arquitetura',
@@ -109,7 +113,7 @@ const translations: Record<Language, Record<string, string>> = {
     'localizaRole': 'Desenvolvedor de Software II',
     'localizaDate': 'Set 2024 - Presente',
     'localizaLocation': 'Belo Horizonte, Minas Gerais, Brasil - Remoto',
-    'localizaDescription': 'Desenvolvo e faço a manutenção de sistemas back-end em C#, com ênfase na criação e implementação de APIs robustas utilizando o ecossistema .NET. Minha atuação inclui a integração eficiente com bancos de dados, como SQL Server e Sybase, garantindo alta performance e confiabilidade nas soluções entregues.\n\nPossuo experiência nas seguintes áreas:\n\n• Linguagem: C#\n• Persistência de Dados: EntityFramework e Dapper\n• Padrões e Arquiteturas: CQRS (MediatR), Padrão Repository, Unit Of Work, Arquitetura Limpa, Código Limpo, Programação Orientada a Objetos (POO) e Microserviços',
+    'localizaDescription': 'Desenvolvo e faço a manutenção de sistemas back-end em C#, Java e Spring Boot, com ênfase na criação e implementação de APIs robustas utilizando os ecossistemas .NET e Java. Minha atuação inclui a integração eficiente com bancos de dados, como SQL Server e Sybase, garantindo alta performance e confiabilidade nas soluções entregues.\n\nPossuo experiência nas seguintes áreas:\n\n• Linguagens: C#, Java\n• Frameworks: .NET, Spring Boot\n• Persistência de Dados: EntityFramework e Dapper\n• Padrões e Arquiteturas: CQRS (MediatR), Padrão Repository, Unit Of Work, Arquitetura Limpa, Código Limpo, Programação Orientada a Objetos (POO) e Microserviços',
     
     // Radinfo
     'radinfoRole': 'Desenvolvedor Back End .NET',

@@ -30,6 +30,8 @@ const Experience = () => {
                 <p className="mt-4 text-gray-600">{t('localizaDescription')}</p>
                 <div className="mt-4 flex flex-wrap gap-2">
                   <span className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">C#</span>
+                  <span className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">Java</span>
+                  <span className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">Spring Boot</span>
                   <span className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">Entity Framework</span>
                   <span className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">Dapper</span>
                   <span className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">CQRS</span>

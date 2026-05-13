@@ -5,7 +5,7 @@ const Contact = () => {
   const { t } = useLanguage();
 
   return (
-    <section id="contact" className="py-20 bg-slate-50">
+    <section id="contact" className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold text-center mb-16">{t('getInTouch')}</h2>
         <div className="max-w-2xl mx-auto">
