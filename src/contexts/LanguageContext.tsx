@@ -70,6 +70,8 @@ const translations: Record<Language, Record<string, string>> = {
     'project2Description': 'A Node.js API built with SOLID principles for gym management, featuring check-ins, user profiles, and metrics tracking.',
     'project3Title': 'Blood Donation System API',
     'project3Description': 'A .NET Core API for managing blood donations, featuring donor registration, donation tracking, and inventory management.',
+    'project4Title': 'Gym Management API — Spring Boot',
+    'project4Description': 'A Spring Boot REST API for gym management, featuring student registration, physical assessments, workout planning, and exercise tracking with JPA relationships.',
     
     // Contact
     'getInTouch': 'Get In Touch',
@@ -138,6 +140,8 @@ const translations: Record<Language, Record<string, string>> = {
     'project2Description': 'Uma API Node.js construída com princípios SOLID para gerenciamento de academia, com recursos de check-ins, perfis de usuários e acompanhamento de métricas.',
     'project3Title': 'API Sistema de Doação de Sangue',
     'project3Description': 'Uma API .NET Core para gerenciamento de doações de sangue, com recursos de cadastro de doadores, acompanhamento de doações e gestão de estoque.',
+    'project4Title': 'API de Gerenciamento de Academia — Spring Boot',
+    'project4Description': 'Uma API REST Spring Boot para gerenciamento de academia, com cadastro de alunos, avaliações físicas, planejamento de treinos e controle de exercícios utilizando relacionamentos JPA.',
     
     // Contact
     'getInTouch': 'Entre em Contato',
