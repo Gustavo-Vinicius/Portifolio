@@ -28,7 +28,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Skills
     'technicalExpertise': 'Technical Expertise',
     'backendDevelopment': 'Backend Development',
-    'backendTechnologies': 'C#, .NET Core, ASP.NET, Java, Spring Boot, Web API, Entity Framework, TypeScript, JavaScript',
+    'backendTechnologies': 'C#, .NET Core, ASP.NET, Java, Spring Boot, Web API, Entity Framework',
     'database': 'Database',
     'databaseTechnologies': 'SQL Server, PostgreSQL, MongoDB, Redis',
     'architecture': 'Architecture',
@@ -98,7 +98,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Skills
     'technicalExpertise': 'Experiência Técnica',
     'backendDevelopment': 'Desenvolvimento Backend',
-    'backendTechnologies': 'C#, .NET Core, ASP.NET, Java, Spring Boot, Web API, Entity Framework, TypeScript, JavaScript',
+    'backendTechnologies': 'C#, .NET Core, ASP.NET, Java, Spring Boot, Web API, Entity Framework',
     'database': 'Banco de Dados',
     'databaseTechnologies': 'SQL Server, PostgreSQL, MongoDB, Redis',
     'architecture': 'Arquitetura',
