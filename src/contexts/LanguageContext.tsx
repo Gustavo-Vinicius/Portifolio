@@ -33,9 +33,9 @@ const translations: Record<Language, Record<string, string>> = {
     'databaseTechnologies': 'SQL Server, PostgreSQL, MongoDB, Redis',
     'architecture': 'Architecture',
     'architectureTechnologies': 'Microservices, REST APIs, SOLID, Design Patterns',
-    'devops': 'DevOps',
-    'devopsTechnologies': 'Azure, GitLab, GitHub, CI/CD, Docker',
-    
+    'devops': 'DevOps & Observability',
+    'devopsTechnologies': 'Azure, GitLab, GitHub, CI/CD, Docker, Kubernetes, Apache Kafka, RabbitMQ, Grafana, Datadog',
+
     // Experience
     'professionalExperience': 'Professional Experience',
     'present': 'Present',
@@ -103,8 +103,8 @@ const translations: Record<Language, Record<string, string>> = {
     'databaseTechnologies': 'SQL Server, PostgreSQL, MongoDB, Redis',
     'architecture': 'Arquitetura',
     'architectureTechnologies': 'Microsserviços, APIs REST, SOLID, Padrões de Projeto',
-    'devops': 'DevOps',
-    'devopsTechnologies': 'Azure, GitLab, GitHub, CI/CD, Docker',
+    'devops': 'DevOps & Observabilidade',
+    'devopsTechnologies': 'Azure, GitLab, GitHub, CI/CD, Docker, Kubernetes, Apache Kafka, RabbitMQ, Grafana, Datadog',
     
     // Experience
     'professionalExperience': 'Experiência Profissional',
